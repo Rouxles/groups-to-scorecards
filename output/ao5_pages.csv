@@ -1,170 +1,147 @@
-Page,Event,R,cutoff,timelimit,Name1,WCA ID1,ID1,g1,sep1,Name2,WCA ID2,ID2,g2,sep2,Name3,WCA ID3,ID3,g3,sep3,Name4,WCA ID4,ID4,g4,sep4
-1,333,1,N/A,10 min,Aarav Dadral,2022DADR01,130,4, ,Danny Sungin Park,2015PARK13,42,2, ,Joseph Chen,2022CHEN16,99,2, ,Patrick Devlin,2022DEVL02,18,4, 
-2,333,1,N/A,10 min,Aarav Shankar,2022SHAN03,142,3, ,Dean Jacob Adamo Susskind,2022SUSS01,8,2, ,Joseph Mangapot,2022MANG01,138,3, ,Paul Mahvi,2012MAHV01,7,1, 
-3,333,1,N/A,10 min,Aarit Nellore,2022NELL03,44,4, ,Dev Shah,2021SHAH04,126,4, ,Justin Son,2022SONJ01,78,1, ,Pravith Velmurugan,2022VELM01,68,1, 
-4,333,1,N/A,10 min,Aashrith Nivarti,2022NIVA01,23,4, ,Dheeraj Labhishetty,,131,4,,Kairui Mei,,100,1,,Randy Zhong,2021ZHON07,53,4, 
-5,333,1,N/A,10 min,Abhinav Reddy Jukanti,2022JUKA01,28,1, ,Dylan C. Mims,2022MIMS01,86,3, ,Kaiya Yasaki,2022YASA01,106,3, ,Rayan El-Amine,2022ELAM01,34,1, 
-6,333,1,N/A,10 min,Adrien de Verneuil,,70,2,,Dylan Genji Thomas,,72,3,,Kasper Jansson,2018JANS05,95,4, ,Reed Rogers,,60,1,
-7,333,1,N/A,10 min,Aidan Leung,2015LEUN01,82,3, ,Edgar Mendez,,104,3,,Kian Leon Guerrero,,118,3,,Rishi Deepak,2022DEEP04,143,4, 
-8,333,1,N/A,10 min,Alex Wu,2022WUAL02,69,3, ,Emily Fleig,,120,3,,Leo Golove,2022GOLO02,73,3, ,Ryan Jew,2008JEWR01,6,3, 
-9,333,1,N/A,10 min,An Le,2015LEAN01,89,1, ,Eric Ostdiek,2022OSTD01,75,3, ,Levy Dumitriu,,47,2,,Ryan Lee,,9,2,
-10,333,1,N/A,10 min,Andre Luis Rubio,2022RUBI03,64,3, ,Ethan Mendelson,2022MEND13,84,4, ,Liam Trinh,,12,3,,Samir George,2022GEOR10,63,4, 
-11,333,1,N/A,10 min,Antonio Kam Ho Tung (甘浩東),2017TUNG13,4,3, ,Ethan Seitz,2021SEIT01,38,1, ,Logan Loo,,46,2,,Sean Yang,2022YANG03,45,1, 
-12,333,1,N/A,10 min,Archit Mahale,2018MAHA16,32,1, ,Evan Feldman,2022FELD01,77,1, ,Logan Zangaro,2022ZANG01,109,4, ,Sebastian Ekman,2019EKMA01,141,2, 
-13,333,1,N/A,10 min,Asa Wachowicz,2022WACH01,101,1, ,Evan Hamilton,,119,1,,Lucas Bekele,,16,2,,Seongjun Kang,2019KANG11,124,2, 
-14,333,1,N/A,10 min,Austin Chen,2015CHEN20,65,2, ,Evan Millsap,2022MILL05,57,4, ,Lucas Choi,,123,4,,Shawn Ahluwalia,,27,3,
-15,333,1,N/A,10 min,Ayan Talwar Shankar,2022SHAN15,43,3, ,Gabriel Andrade,,52,4,,Lucas Tan,2018TANL01,113,1, ,Sriram Vivek,2022VIVE01,76,2, 
-16,333,1,N/A,10 min,Ayush Anand,2022ANAN02,94,3, ,Gurshan Singh,2019SING33,40,3, ,Luisangel Alguera,,79,4,,Stanley Tran,2019TRAN04,111,3, 
-17,333,1,N/A,10 min,Ayush Guragai,,96,2,,Harvey Keene,,88,1,,Luke Bradley,2022BRAD09,133,1, ,Taylor Schannon,2022SCHA17,33,2, 
-18,333,1,N/A,10 min,Baron America,2022AMER01,62,4, ,Heidi Chan,2018CHAN50,58,1, ,Maadhav Govil,,37,1,,Theo Felixs Domeni De Goes,2022GOES02,105,2, 
-19,333,1,N/A,10 min,Ben Yu,2011YUBE01,19,1, ,Henry Green,,112,1,,Madison Brtalik,,21,1,,Theodore Groom Linehan,2022LINE06,41,4, 
-20,333,1,N/A,10 min,Benjamin Brown,2018BROW22,97,3, ,Ira Thota,2022THOT02,17,3, ,Manuel Dumitriu,,48,4,,Trevor Mendelson,2022MEND14,83,1, 
-21,333,1,N/A,10 min,Benjamin O. Bradley,2022BRAD08,132,4, ,Ishan Parekh,,110,4,,Mason Wong,2022WONG03,103,4, ,Tsukasa Alex Sano,,22,3,
-22,333,1,N/A,10 min,Benjamin Yin,2022YINB01,128,2, ,Jack Bradley,,134,1,,Matthew Luo,2014LUOM01,74,3, ,Tyler Howlett,2014HOWL02,30,1, 
-23,333,1,N/A,10 min,Bradley Measles,,116,2,,Jack Gargiulo,,35,4,,Max Bianchi-McElwee,,135,4,,Varun Mohanraj,2015MOHA10,2,2, 
-24,333,1,N/A,10 min,Bryan Crosby,2022CROS04,10,3, ,Jackson Sadahire,2022SADA03,137,1, ,Max Lai,2022LAIM01,59,3, ,Vedanth Bharadwaj,2021BHAR01,80,2, 
-25,333,1,N/A,10 min,Caleb Yao,2018YAOC02,71,2, ,Jaidon Poraminthara Lin,2019LINJ04,15,4, ,Max Li,2022LIMA02,145,2, ,Vihan Vasist,2022VASI05,50,2, 
-26,333,1,N/A,10 min,Calvin Nielson,2014NIEL03,5,2, ,James Capel,,114,2,,Max Park,2012PARK03,29,1, ,Vincent Damelio,2022DAME01,139,3, 
-27,333,1,N/A,10 min,Cameron America,2022AMER02,61,2, ,James Chea,2022CHEA05,108,4, ,May McQuade,2022MCQU01,13,1, ,Vismay Murthy,2022MURT01,14,1, 
-28,333,1,N/A,10 min,Carl Tsai,2017TSAI05,91,2, ,Jason Ostdiek,2017OSTD02,51,2, ,Mitchell Lane,2010LANE02,1,2, ,Vivek Verma,2016VERM04,31,4, 
-29,333,1,N/A,10 min,Cary Huang,2015HUAN48,146,4, ,Jason Wang,,90,4,,Mustafa Lodhi,2022LODH01,24,1, ,Vividh Sriram,2018SRIR02,56,1, 
-30,333,1,N/A,10 min,Chloe Ho,,125,1,,Jeff Chen,2022CHEN19,98,4, ,Nicky Tang,2022TANG03,25,3, ,Wilson Li,2017LIWI03,121,4, 
-31,333,1,N/A,10 min,Chris Martin,2013MART03,3,1, ,Jeffrey Kim,2015KIMJ04,49,3, ,Nir Marcovitz,2022MARC01,136,2, ,Yuri Grafman,,26,2,
-32,333,1,N/A,10 min,Cindy Xiaoyue Huang (黄小越),2019HUAN73,127,2, ,Jeremy Benik,2016BENI05,39,2, ,Nolan Yiu,2016YIUN01,36,4, ,Zeke Miller,2017MILL07,81,3, 
-33,333,1,N/A,10 min,Dan Pastushkov,2014PAST01,67,3, ,Jonas Bell,2022BELL08,93,1, ,Owen Vaughan,2022VAUG04,85,2, ,Zoe Noelle Hom,,140,2,
-34,333,1,N/A,10 min,Daniel Cho,2021CHOD01,66,3, ,Jordan Granados,2019GRAN05,107,4, ,,,,,,,,,,
-35,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-36,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-37,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-38,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-39,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-40,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-41,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-42,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-43,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-44,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-45,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-46,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-47,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-48,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-49,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-50,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-51,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-52,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-53,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-54,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-55,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-56,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-57,333,2,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-58,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-59,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-60,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-61,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-62,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-63,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-64,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-65,333,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-66,333,4,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-67,333,4,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-68,333,4,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-69,333,4,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-70,222,1,20 sec,30 sec,Aarav Dadral,2022DADR01,130,4, ,Cindy Xiaoyue Huang (黄小越),2019HUAN73,127,2, ,Joseph Chen,2022CHEN16,99,2, ,Patrick Devlin,2022DEVL02,18,4, 
-71,222,1,20 sec,30 sec,Aarav Shankar,2022SHAN03,142,3, ,Daniel Cho,2021CHOD01,66,3, ,Joseph Mangapot,2022MANG01,138,3, ,Paul Mahvi,2012MAHV01,7,1, 
-72,222,1,20 sec,30 sec,Aarit Nellore,2022NELL03,44,4, ,Danny Sungin Park,2015PARK13,42,2, ,Justin Son,2022SONJ01,78,1, ,Pravith Velmurugan,2022VELM01,68,1, 
-73,222,1,20 sec,30 sec,Aashrith Nivarti,2022NIVA01,23,4, ,Dean Jacob Adamo Susskind,2022SUSS01,8,2, ,Kairui Mei,,100,1,,Randy Zhong,2021ZHON07,53,4, 
-74,222,1,20 sec,30 sec,Abhinav Reddy Jukanti,2022JUKA01,28,1, ,Dev Shah,2021SHAH04,126,4, ,Kaiya Yasaki,2022YASA01,106,3, ,Rayan El-Amine,2022ELAM01,34,1, 
-75,222,1,20 sec,30 sec,Adrien de Verneuil,,70,2,,Dylan C. Mims,2022MIMS01,86,3, ,Kasper Jansson,2018JANS05,95,4, ,Reed Rogers,,60,1,
-76,222,1,20 sec,30 sec,Aidan Leung,2015LEUN01,82,3, ,Dylan Genji Thomas,,72,3,,Kian Leon Guerrero,,118,3,,Rishi Deepak,2022DEEP04,143,4, 
-77,222,1,20 sec,30 sec,Alex Wu,2022WUAL02,69,3, ,Emily Fleig,,120,3,,Leo Golove,2022GOLO02,73,3, ,Ryan Jew,2008JEWR01,6,3, 
-78,222,1,20 sec,30 sec,An Le,2015LEAN01,89,1, ,Eric Ostdiek,2022OSTD01,75,3, ,Levy Dumitriu,,47,2,,Ryan Lee,,9,2,
-79,222,1,20 sec,30 sec,Andre Luis Rubio,2022RUBI03,64,3, ,Ethan Mendelson,2022MEND13,84,4, ,Liam Trinh,,12,3,,Samir George,2022GEOR10,63,4, 
-80,222,1,20 sec,30 sec,Antonio Kam Ho Tung (甘浩東),2017TUNG13,4,3, ,Ethan Seitz,2021SEIT01,38,1, ,Logan Loo,,46,2,,Sebastian Ekman,2019EKMA01,141,2, 
-81,222,1,20 sec,30 sec,Archit Mahale,2018MAHA16,32,1, ,Evan Feldman,2022FELD01,77,1, ,Logan Zangaro,2022ZANG01,109,4, ,Seongjun Kang,2019KANG11,124,2, 
-82,222,1,20 sec,30 sec,Asa Wachowicz,2022WACH01,101,1, ,Evan Hamilton,,119,1,,Lucas Bekele,,16,2,,Shawn Ahluwalia,,27,3,
-83,222,1,20 sec,30 sec,Austin Chen,2015CHEN20,65,2, ,Evan Millsap,2022MILL05,57,4, ,Lucas Choi,,123,4,,Sriram Vivek,2022VIVE01,76,2, 
-84,222,1,20 sec,30 sec,Ayan Talwar Shankar,2022SHAN15,43,3, ,Gabriel Andrade,,52,4,,Lucas Tan,2018TANL01,113,1, ,Stanley Tran,2019TRAN04,111,3, 
-85,222,1,20 sec,30 sec,Ayush Anand,2022ANAN02,94,3, ,Gurshan Singh,2019SING33,40,3, ,Luisangel Alguera,,79,4,,Taylor Schannon,2022SCHA17,33,2, 
-86,222,1,20 sec,30 sec,Ayush Guragai,,96,2,,Harvey Keene,,88,1,,Luke Bradley,2022BRAD09,133,1, ,Theo Felixs Domeni De Goes,2022GOES02,105,2, 
-87,222,1,20 sec,30 sec,Baron America,2022AMER01,62,4, ,Heidi Chan,2018CHAN50,58,1, ,Maadhav Govil,,37,1,,Theodore Groom Linehan,2022LINE06,41,4, 
-88,222,1,20 sec,30 sec,Ben Yu,2011YUBE01,19,1, ,Henry Green,,112,1,,Madison Brtalik,,21,1,,Trevor Mendelson,2022MEND14,83,1, 
-89,222,1,20 sec,30 sec,Benjamin Brown,2018BROW22,97,3, ,Jack Gargiulo,,35,4,,Manuel Dumitriu,,48,4,,Tsukasa Alex Sano,,22,3,
-90,222,1,20 sec,30 sec,Benjamin O. Bradley,2022BRAD08,132,4, ,Jackson Sadahire,2022SADA03,137,1, ,Mason Wong,2022WONG03,103,4, ,Tyler Howlett,2014HOWL02,30,1, 
-91,222,1,20 sec,30 sec,Benjamin Yin,2022YINB01,128,2, ,Jaidon Poraminthara Lin,2019LINJ04,15,4, ,Matthew Luo,2014LUOM01,74,3, ,Varun Mohanraj,2015MOHA10,2,2, 
-92,222,1,20 sec,30 sec,Bryan Crosby,2022CROS04,10,3, ,James Capel,,114,2,,Max Bianchi-McElwee,,135,4,,Vedanth Bharadwaj,2021BHAR01,80,2, 
-93,222,1,20 sec,30 sec,Caleb Yao,2018YAOC02,71,2, ,James Chea,2022CHEA05,108,4, ,Max Lai,2022LAIM01,59,3, ,Vihan Vasist,2022VASI05,50,2, 
-94,222,1,20 sec,30 sec,Calvin Nielson,2014NIEL03,5,2, ,Jason Ostdiek,2017OSTD02,51,2, ,Max Li,2022LIMA02,145,2, ,Vincent Damelio,2022DAME01,139,3, 
-95,222,1,20 sec,30 sec,Cameron America,2022AMER02,61,2, ,Jason Wang,,90,4,,May McQuade,2022MCQU01,13,1, ,Vismay Murthy,2022MURT01,14,1, 
-96,222,1,20 sec,30 sec,Carl Tsai,2017TSAI05,91,2, ,Jeff Chen,2022CHEN19,98,4, ,Mitchell Lane,2010LANE02,1,2, ,Vivek Verma,2016VERM04,31,4, 
-97,222,1,20 sec,30 sec,Carter Schannon,2022SCHA16,20,3, ,Jeffrey Kim,2015KIMJ04,49,3, ,Nicky Tang,2022TANG03,25,3, ,Vividh Sriram,2018SRIR02,56,1, 
-98,222,1,20 sec,30 sec,Cary Huang,2015HUAN48,146,4, ,Jeremy Benik,2016BENI05,39,2, ,Nir Marcovitz,2022MARC01,136,2, ,Yuri Grafman,,26,2,
-99,222,1,20 sec,30 sec,Chloe Ho,,125,1,,Jonas Bell,2022BELL08,93,1, ,Nolan Yiu,2016YIUN01,36,4, ,Zeke Miller,2017MILL07,81,3, 
-100,222,1,20 sec,30 sec,Chris Martin,2013MART03,3,1, ,Jordan Granados,2019GRAN05,107,4, ,Owen Vaughan,2022VAUG04,85,2, ,Zoe Noelle Hom,,140,2,
-101,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-102,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-103,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-104,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-105,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-106,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-107,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-108,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-109,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-110,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-111,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-112,222,2,20 sec,30 sec,,,,,,,,,,,,,,,,,,,,
-113,222,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-114,222,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-115,222,3,N/A,10 min,,,,,,,,,,,,,,,,,,,,
-116,444,1,1 min 30 sec,2 min 30 sec,Aarav Shankar,2022SHAN03,142,3, ,Cindy Xiaoyue Huang (黄小越),2019HUAN73,127,3, ,Jonas Bell,2022BELL08,93,3, ,Patrick Devlin,2022DEVL02,18,1, 
-117,444,1,1 min 30 sec,2 min 30 sec,Aashrith Nivarti,2022NIVA01,23,3, ,Dan Pastushkov,2014PAST01,67,2, ,Jordan Granados,2019GRAN05,107,3, ,Paul Mahvi,2012MAHV01,7,1, 
-118,444,1,1 min 30 sec,2 min 30 sec,Abhinav Reddy Jukanti,2022JUKA01,28,1, ,Daniel Cho,2021CHOD01,66,1, ,Joseph Chen,2022CHEN16,99,2, ,Pravith Velmurugan,2022VELM01,68,3, 
-119,444,1,1 min 30 sec,2 min 30 sec,Aidan Leung,2015LEUN01,82,2, ,Danny Sungin Park,2015PARK13,42,3, ,Joseph Mangapot,2022MANG01,138,1, ,Randy Zhong,2021ZHON07,53,2, 
-120,444,1,1 min 30 sec,2 min 30 sec,Alex Wu,2022WUAL02,69,1, ,Dean Jacob Adamo Susskind,2022SUSS01,8,3, ,Justin Son,2022SONJ01,78,2, ,Rishi Deepak,2022DEEP04,143,2, 
-121,444,1,1 min 30 sec,2 min 30 sec,An Le,2015LEAN01,89,1, ,Dev Shah,2021SHAH04,126,2, ,Kairui Mei,,100,2,,Ryan Jew,2008JEWR01,6,2, 
-122,444,1,1 min 30 sec,2 min 30 sec,Andre Luis Rubio,2022RUBI03,64,1, ,Dylan C. Mims,2022MIMS01,86,2, ,Kasper Jansson,2018JANS05,95,2, ,Ryan Lee,,9,1,
-123,444,1,1 min 30 sec,2 min 30 sec,Antonio Kam Ho Tung (甘浩東),2017TUNG13,4,3, ,Ethan Mendelson,2022MEND13,84,2, ,Kian Leon Guerrero,,118,3,,Samir George,2022GEOR10,63,1, 
-124,444,1,1 min 30 sec,2 min 30 sec,Archit Mahale,2018MAHA16,32,1, ,Ethan Seitz,2021SEIT01,38,1, ,Leo Golove,2022GOLO02,73,3, ,Sean Yang,2022YANG03,45,1, 
-125,444,1,1 min 30 sec,2 min 30 sec,Asa Wachowicz,2022WACH01,101,3, ,Evan Feldman,2022FELD01,77,2, ,Liam Trinh,,12,1,,Sebastian Ekman,2019EKMA01,141,1, 
-126,444,1,1 min 30 sec,2 min 30 sec,Austin Chen,2015CHEN20,65,3, ,Evan Hamilton,,119,1,,Logan Zangaro,2022ZANG01,109,1, ,Seongjun Kang,2019KANG11,124,2, 
-127,444,1,1 min 30 sec,2 min 30 sec,Ayush Anand,2022ANAN02,94,3, ,Evan Millsap,2022MILL05,57,2, ,Lucas Bekele,,16,2,,Sriram Vivek,2022VIVE01,76,1, 
-128,444,1,1 min 30 sec,2 min 30 sec,Baron America,2022AMER01,62,3, ,Gabriel Andrade,,52,2,,Lucas Choi,,123,3,,Stanley Tran,2019TRAN04,111,1, 
-129,444,1,1 min 30 sec,2 min 30 sec,Ben Yu,2011YUBE01,19,3, ,Gurshan Singh,2019SING33,40,2, ,Lucas Tan,2018TANL01,113,1, ,Taylor Schannon,2022SCHA17,33,2, 
-130,444,1,1 min 30 sec,2 min 30 sec,Benjamin Brown,2018BROW22,97,1, ,Heidi Chan,2018CHAN50,58,2, ,Luke Bradley,2022BRAD09,133,1, ,Theo Felixs Domeni De Goes,2022GOES02,105,2, 
-131,444,1,1 min 30 sec,2 min 30 sec,Benjamin O. Bradley,2022BRAD08,132,2, ,Ira Thota,2022THOT02,17,2, ,Mason Wong,2022WONG03,103,1, ,Trevor Mendelson,2022MEND14,83,3, 
-132,444,1,1 min 30 sec,2 min 30 sec,Benjamin Yin,2022YINB01,128,2, ,Jackson Sadahire,2022SADA03,137,1, ,Matthew Luo,2014LUOM01,74,2, ,Tsukasa Alex Sano,,22,2,
-133,444,1,1 min 30 sec,2 min 30 sec,Bryan Crosby,2022CROS04,10,3, ,Jaidon Poraminthara Lin,2019LINJ04,15,1, ,Max Bianchi-McElwee,,135,2,,Tyler Howlett,2014HOWL02,30,2, 
-134,444,1,1 min 30 sec,2 min 30 sec,Caleb Yao,2018YAOC02,71,3, ,James Capel,,114,3,,Max Li,2022LIMA02,145,3, ,Varun Mohanraj,2015MOHA10,2,1, 
-135,444,1,1 min 30 sec,2 min 30 sec,Calvin Nielson,2014NIEL03,5,1, ,James Chea,2022CHEA05,108,3, ,Max Park,2012PARK03,29,1, ,Vedanth Bharadwaj,2021BHAR01,80,3, 
-136,444,1,1 min 30 sec,2 min 30 sec,Cameron America,2022AMER02,61,1, ,Jason Ostdiek,2017OSTD02,51,2, ,Mitchell Lane,2010LANE02,1,3, ,Vincent Damelio,2022DAME01,139,2, 
-137,444,1,1 min 30 sec,2 min 30 sec,Carl Tsai,2017TSAI05,91,3, ,Jason Wang,,90,1,,Nicky Tang,2022TANG03,25,3, ,Vismay Murthy,2022MURT01,14,3, 
-138,444,1,1 min 30 sec,2 min 30 sec,Cary Huang,2015HUAN48,146,2, ,Jeff Chen,2022CHEN19,98,3, ,Nir Marcovitz,2022MARC01,136,2, ,Vivek Verma,2016VERM04,31,1, 
-139,444,1,1 min 30 sec,2 min 30 sec,Chloe Ho,,125,3,,Jeffrey Kim,2015KIMJ04,49,2, ,Nolan Yiu,2016YIUN01,36,3, ,Wilson Li,2017LIWI03,121,3, 
-140,444,1,1 min 30 sec,2 min 30 sec,Chris Martin,2013MART03,3,2, ,Jeremy Benik,2016BENI05,39,1, ,Owen Vaughan,2022VAUG04,85,1, ,Zeke Miller,2017MILL07,81,1, 
-141,444,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,,,,,
-142,444,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,,,,,
-143,444,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,,,,,
-144,555,1,2 min 15 sec,4 min,Aashrith Nivarti,2022NIVA01,23,1, ,Cindy Xiaoyue Huang (黄小越),2019HUAN73,127,2, ,Jeremy Benik,2016BENI05,39,2, ,Pravith Velmurugan,2022VELM01,68,2, 
-145,555,1,2 min 15 sec,4 min,Abhinav Reddy Jukanti,2022JUKA01,28,1, ,Dan Pastushkov,2014PAST01,67,1, ,Jordan Granados,2019GRAN05,107,1, ,Ryan Jew,2008JEWR01,6,2, 
-146,555,1,2 min 15 sec,4 min,Aidan Leung,2015LEUN01,82,1, ,Daniel Cho,2021CHOD01,66,2, ,Joseph Mangapot,2022MANG01,138,1, ,Samir George,2022GEOR10,63,2, 
-147,555,1,2 min 15 sec,4 min,An Le,2015LEAN01,89,1, ,Danny Sungin Park,2015PARK13,42,2, ,Kasper Jansson,2018JANS05,95,2, ,Sean Yang,2022YANG03,45,2, 
-148,555,1,2 min 15 sec,4 min,Andre Luis Rubio,2022RUBI03,64,2, ,Dev Shah,2021SHAH04,126,1, ,Logan Zangaro,2022ZANG01,109,1, ,Seongjun Kang,2019KANG11,124,1, 
-149,555,1,2 min 15 sec,4 min,Antonio Kam Ho Tung (甘浩東),2017TUNG13,4,1, ,Dylan C. Mims,2022MIMS01,86,1, ,Luke Bradley,2022BRAD09,133,2, ,Sriram Vivek,2022VIVE01,76,1, 
-150,555,1,2 min 15 sec,4 min,Archit Mahale,2018MAHA16,32,2, ,Ethan Mendelson,2022MEND13,84,1, ,Mason Wong,2022WONG03,103,1, ,Stanley Tran,2019TRAN04,111,1, 
-151,555,1,2 min 15 sec,4 min,Asa Wachowicz,2022WACH01,101,2, ,Ethan Seitz,2021SEIT01,38,2, ,Matthew Luo,2014LUOM01,74,2, ,Trevor Mendelson,2022MEND14,83,2, 
-152,555,1,2 min 15 sec,4 min,Ayush Anand,2022ANAN02,94,2, ,Evan Feldman,2022FELD01,77,2, ,Max Bianchi-McElwee,,135,2,,Tyler Howlett,2014HOWL02,30,1, 
-153,555,1,2 min 15 sec,4 min,Baron America,2022AMER01,62,1, ,Evan Millsap,2022MILL05,57,2, ,Max Park,2012PARK03,29,1, ,Varun Mohanraj,2015MOHA10,2,1, 
-154,555,1,2 min 15 sec,4 min,Ben Yu,2011YUBE01,19,1, ,Gurshan Singh,2019SING33,40,1, ,Mitchell Lane,2010LANE02,1,1, ,Vedanth Bharadwaj,2021BHAR01,80,1, 
-155,555,1,2 min 15 sec,4 min,Caleb Yao,2018YAOC02,71,2, ,Heidi Chan,2018CHAN50,58,1, ,Nicky Tang,2022TANG03,25,2, ,Vincent Damelio,2022DAME01,139,1, 
-156,555,1,2 min 15 sec,4 min,Calvin Nielson,2014NIEL03,5,2, ,James Chea,2022CHEA05,108,1, ,Nir Marcovitz,2022MARC01,136,1, ,Vismay Murthy,2022MURT01,14,2, 
-157,555,1,2 min 15 sec,4 min,Carl Tsai,2017TSAI05,91,2, ,Jason Ostdiek,2017OSTD02,51,2, ,Nolan Yiu,2016YIUN01,36,2, ,Vivek Verma,2016VERM04,31,2, 
-158,555,1,2 min 15 sec,4 min,Cary Huang,2015HUAN48,146,2, ,Jeff Chen,2022CHEN19,98,2, ,Owen Vaughan,2022VAUG04,85,1, ,Wilson Li,2017LIWI03,121,1, 
-159,555,1,2 min 15 sec,4 min,Chloe Ho,,125,1,,Jeffrey Kim,2015KIMJ04,49,2, ,Paul Mahvi,2012MAHV01,7,1, ,Zeke Miller,2017MILL07,81,1, 
-160,555,1,2 min 15 sec,4 min,Chris Martin,2013MART03,3,2, ,,,,,,,,,,,,,,,
-161,555,2,N/A,4 min,,,,,,,,,,,,,,,,,,,,
-162,555,2,N/A,4 min,,,,,,,,,,,,,,,,,,,,
-163,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-164,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-165,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-166,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-167,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-168,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
-169,,,N/A,N/A,,,,,,,,,,,,,,,,,,,,
+Page,Event,R,cutoff,timelimit,Name1,WCA ID1,ID1,g1,Name2,WCA ID2,ID2,g2,Name3,WCA ID3,ID3,g3,Name4,WCA ID4,ID4,g4
+1,3x3,1,N/A,10 min,Aarav Shankar,2022SHAN03,143,5,Dayakshin Arumugam,2022ARUM01,91,5,Keaton Gross,,99,2,Priscilla Chou,2022CHOU11,138,5
+2,3x3,1,N/A,10 min,Abhimanyu Singh,2022SING37,115,2,Dhiraj Reddy Kummithi,2022KUMM01,151,1,Kenji Gipson-Nahman,,169,4,Priyank Sharma-Tiwari,2022SHAR26,108,3
+3,3x3,1,N/A,10 min,Abhinav Reddy Jukanti,2022JUKA01,117,2,Dhruva Gopal,,87,5,Keola Fallau,,53,1,Quentin D'Antuono,2022DANT02,166,4
+4,3x3,1,N/A,10 min,Aditya Jha,2022JHAA01,79,5,Edward Leung,2019LEUN05,129,1,Kevin Ly,2022LYKE01,57,3,Randy Zhong,2021ZHON07,51,1
+5,3x3,1,N/A,10 min,Aditya Shah,2014SHAH22,60,4,Elizur Fisher-Kirshner,2022FISH10,37,5,Koh Walter Sano,,34,2,Robin Herman,2020HERM01,52,2
+6,3x3,1,N/A,10 min,Adrian Zhang,,105,5,Emmett O'Leary-Liu,2019OLEA02,15,3,Lawrence Zhao,2022ZHAO08,49,2,Roman Reddick,2022REDD01,159,4
+7,3x3,1,N/A,10 min,Ahana Praveen,2022PRAV02,41,4,Ender Rodriguez,2022RODR20,95,3,Liv Ignacio,,39,4,Rudy Colato,2016COLA01,35,4
+8,3x3,1,N/A,10 min,Aidan Leung,2015LEUN01,4,1,Eric Che,2022CHEE02,66,4,Logan Hsueh,,102,3,Ryan H. Lee,,6,1
+9,3x3,1,N/A,10 min,Alex Chang,,28,5,Eric Ostdiek,2022OSTD01,71,5,Logan Pang,2022PANG01,116,5,Ryan Peh (白凯明),2015PEHR01,81,5
+10,3x3,1,N/A,10 min,Amahl Weinstein Agrawal,2022AGRA05,30,4,Eric Yang,2014YANG35,7,2,Logan Zangaro,2022ZANG01,131,3,Sammy Rogers,2019ROGE06,22,3
+11,3x3,1,N/A,10 min,An Le,2015LEAN01,2,4,Ethan Lim,,132,5,Lorenzo Zuniga,,161,5,Sanjay Chintapally,2017CHIN04,160,3
+12,3x3,1,N/A,10 min,Andre Luis Rubio,2022RUBI03,72,2,Evan Chin,2017CHIN03,85,5,Lucas Aubin,2019AUBI01,47,1,Saoirse Phipps,,140,2
+13,3x3,1,N/A,10 min,Andrew Clippinger,2016CLIP01,174,2,Evan Mendel,2022MEND25,176,4,Lucas Bekele,2022BEKE02,50,5,Sara Rose,2022ROSE09,141,1
+14,3x3,1,N/A,10 min,Andrew Wasti,,130,4,Evrim,,162,1,Lucas Choi,2022CHOI21,18,3,Sarvesh Subbiah,2022SUBB03,90,2
+15,3x3,1,N/A,10 min,Anton Than,,94,5,Francis Quemuel,,74,4,Luke Bradley,2022BRAD09,152,4,Sashanth Subbiah,2022SUBB04,93,2
+16,3x3,1,N/A,10 min,Antonio Kam Ho Tung (甘浩東),2017TUNG13,1,1,Gabriel Amaya,2022AMAY04,121,5,Luke Mariano,,114,1,Sean Breckenridge,2017BREC02,110,5
+17,3x3,1,N/A,10 min,Anuraag Gandluru,,156,4,Gabriel Sianez,,136,1,Luther Quinlan,,36,3,Sean Yang,2022YANG03,64,3
+18,3x3,1,N/A,10 min,Ari Mendel,2016MEND27,175,2,Gurshan Singh,2019SING33,23,4,Marcos Osorio,,45,5,Shubhaay Mehta,2022MEHT09,170,3
+19,3x3,1,N/A,10 min,Arjun Kumar,2022KUMA20,89,1,Hayden I. Lee,2022LEEH10,123,1,Mason Wong,2022WONG03,100,4,Sidhak Khanuja,2022KHAN07,73,4
+20,3x3,1,N/A,10 min,Arnav Ratna,2022RATN01,17,4,Heidi Chan,2018CHAN50,75,4,Matthew Luo,2014LUOM01,68,2,Sierra Zawacki,2022ZAWA02,65,2
+21,3x3,1,N/A,10 min,Ayaan Ibraheem Aftab,2022AFTA01,76,1,Henry Mermel,2022MERM01,77,4,Max Lai,2022LAIM01,124,5,Sol Goodwin,2015GOOD02,67,3
+22,3x3,1,N/A,10 min,Baron America,2022AMER01,144,2,Hrishikesh Kakati,2022KAKA01,56,2,Max Mariano,,104,4,Stanley Tran,2019TRAN04,96,5
+23,3x3,1,N/A,10 min,Benjamin Brown,2018BROW22,26,1,Hudson Kang,2022KANG11,9,3,Max Park,2012PARK03,98,1,Sushanth Mattur,2022MATT02,82,1
+24,3x3,1,N/A,10 min,Benjamin O. Bradley,2022BRAD08,153,2,Ira Thota,2022THOT02,106,5,Micah Yeo,2022YEOM01,14,5,Thanos Manuel Cocoles,2022COCO01,11,3
+25,3x3,1,N/A,10 min,Benjamin Yin,2022YINB01,62,3,Ivan Chen,,165,3,Michael Sweeney Terrell,2021TERR04,113,1,Tom Zheng,2016ZHEN04,142,5
+26,3x3,1,N/A,10 min,Brandon Lugtu,2012LUGT01,44,5,Ivan Efimov,2022EFIM01,103,3,Michael Villegas,,21,4,Tsukasa Alex Sano,2022SANO02,8,3
+27,3x3,1,N/A,10 min,Brandon Yee,2022YEEB01,32,2,Jack Bradley,2022BRAD12,154,1,Mustafa Saruhan,2022SARU03,135,2,Ved Nalla,2022NALL02,112,4
+28,3x3,1,N/A,10 min,Caleb Yao,2018YAOC02,12,2,James Chea,2022CHEA05,10,5,Naraya Lawinski,,19,3,Vihaan Mehta,,128,3
+29,3x3,1,N/A,10 min,Cameron America,2022AMER02,145,1,James Rungsawang,2022RUNG01,48,3,Neel Manjeshwar,2018MANJ02,139,1,Vivek Verma,2016VERM04,3,3
+30,3x3,1,N/A,10 min,Cary Huang,2015HUAN48,83,3,James Yang,2017YANG58,70,1,Neelesh Peramur,2019PERA03,88,5,Walter Kalt Swartzkopf,2022SWAR06,146,3
+31,3x3,1,N/A,10 min,Chae Yeon Lee,,97,1,Jason Ostdiek,2017OSTD02,59,4,Niklas Hsu-Storaker,2022HSUS01,171,1,William Borgsmiller,,92,1
+32,3x3,1,N/A,10 min,Chengxi Li,2014LICH04,149,2,Jason Wong,,63,1,Nolan Yiu,2016YIUN01,5,2,Wilson Li,2017LIWI03,13,4
+33,3x3,1,N/A,10 min,Chloe Chau,2022CHAU11,80,2,Jeff Chen,2022CHEN19,111,3,Orin Mishoe,2022MISH06,27,1,Winston Mermel,2022MERM02,78,4
+34,3x3,1,N/A,10 min,Cindy Xiaoyue Huang (黄小越),2019HUAN73,84,2,Jeffrey Kim,2015KIMJ04,43,1,Patitpavan Neel,2009NEEL01,150,1,Yuto Mizutani,,29,1
+35,3x3,1,N/A,10 min,Colin Lutz,,54,2,Jeremy Gorman,,119,2,Patrick Devlin,2022DEVL02,164,4,Zachary Au-Swartzkopf,2022AUSW01,133,2
+36,3x3,1,N/A,10 min,Colton Oddson,,163,2,Jordan Lee,2022LEEJ19,137,4,Patrick Wang,2022WANG64,33,3,Zane Qureshi,2020QURE01,69,4
+37,3x3,1,N/A,10 min,Connor Dobbin,,147,3,Jordan Tran,2020TRAN01,148,5,Paxon Schinske,2022SCHI02,125,3,Zerui Cheng,,16,2
+38,3x3,1,N/A,10 min,David Broom,2017BROO02,42,4,Josh Biagi,,55,3,,,,,,,,
+39,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+40,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+41,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+42,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+43,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+44,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+45,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+46,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+47,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+48,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+49,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+50,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+51,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+52,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+53,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+54,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+55,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+56,3x3,2,N/A,10 min,,,,,,,,,,,,,,,,
+57,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+58,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+59,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+60,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+61,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+62,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+63,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+64,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+65,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+66,3x3,3,N/A,10 min,,,,,,,,,,,,,,,,
+67,3x3,4,N/A,10 min,,,,,,,,,,,,,,,,
+68,3x3,4,N/A,10 min,,,,,,,,,,,,,,,,
+69,3x3,4,N/A,10 min,,,,,,,,,,,,,,,,
+70,3x3,4,N/A,10 min,,,,,,,,,,,,,,,,
+71,4x4,1,1 min 10 sec,2 min 30 sec,Aarav Shankar,2022SHAN03,143,3,Chae Yeon Lee,,97,2,Jeffrey Kim,2015KIMJ04,43,2,Paxon Schinske,2022SCHI02,125,1
+72,4x4,1,1 min 10 sec,2 min 30 sec,Abhimanyu Singh,2022SING37,115,2,Chengxi Li,2014LICH04,149,3,Jordan Lee,2022LEEJ19,137,1,Randy Zhong,2021ZHON07,51,1
+73,4x4,1,1 min 10 sec,2 min 30 sec,Abhinav Reddy Jukanti,2022JUKA01,117,1,Cindy Xiaoyue Huang (黄小越),2019HUAN73,84,1,Keaton Gross,,99,2,Robin Herman,2020HERM01,52,2
+74,4x4,1,1 min 10 sec,2 min 30 sec,Aditya Jha,2022JHAA01,79,3,David Broom,2017BROO02,42,3,Kenji Gipson-Nahman,,169,2,Roman Reddick,2022REDD01,159,3
+75,4x4,1,1 min 10 sec,2 min 30 sec,Aditya Shah,2014SHAH22,60,1,Edward Leung,2019LEUN05,129,1,Kevin Ly,2022LYKE01,57,1,Rudy Colato,2016COLA01,35,1
+76,4x4,1,1 min 10 sec,2 min 30 sec,Ahana Praveen,2022PRAV02,41,3,Elizur Fisher-Kirshner,2022FISH10,37,1,Lawrence Zhao,2022ZHAO08,49,3,Ryan H. Lee,,6,2
+77,4x4,1,1 min 10 sec,2 min 30 sec,Aidan Leung,2015LEUN01,4,2,Emmett O'Leary-Liu,2019OLEA02,15,2,Logan Hsueh,,102,3,Ryan Peh (白凯明),2015PEHR01,81,2
+78,4x4,1,1 min 10 sec,2 min 30 sec,Amahl Weinstein Agrawal,2022AGRA05,30,1,Ender Rodriguez,2022RODR20,95,2,Logan Pang,2022PANG01,116,1,Sanjay Chintapally,2017CHIN04,160,3
+79,4x4,1,1 min 10 sec,2 min 30 sec,An Le,2015LEAN01,2,1,Eric Che,2022CHEE02,66,3,Logan Zangaro,2022ZANG01,131,2,Sara Rose,2022ROSE09,141,1
+80,4x4,1,1 min 10 sec,2 min 30 sec,Andre Luis Rubio,2022RUBI03,72,2,Eric Yang,2014YANG35,7,2,Lucas Aubin,2019AUBI01,47,1,Sarvesh Subbiah,2022SUBB03,90,2
+81,4x4,1,1 min 10 sec,2 min 30 sec,Andrew Clippinger,2016CLIP01,174,3,Evan Chin,2017CHIN03,85,2,Lucas Bekele,2022BEKE02,50,2,Sean Breckenridge,2017BREC02,110,3
+82,4x4,1,1 min 10 sec,2 min 30 sec,Anton Than,,94,3,Gabriel Sianez,,136,1,Lucas Choi,2022CHOI21,18,3,Sean Yang,2022YANG03,64,3
+83,4x4,1,1 min 10 sec,2 min 30 sec,Antonio Kam Ho Tung (甘浩東),2017TUNG13,1,3,Gurshan Singh,2019SING33,23,1,Luke Bradley,2022BRAD09,152,3,Shubhaay Mehta,2022MEHT09,170,2
+84,4x4,1,1 min 10 sec,2 min 30 sec,Arjun Kumar,2022KUMA20,89,1,Hayden I. Lee,2022LEEH10,123,2,Mason Wong,2022WONG03,100,3,Sierra Zawacki,2022ZAWA02,65,1
+85,4x4,1,1 min 10 sec,2 min 30 sec,Arnav Ratna,2022RATN01,17,3,Heidi Chan,2018CHAN50,75,3,Matthew Luo,2014LUOM01,68,2,Stanley Tran,2019TRAN04,96,1
+86,4x4,1,1 min 10 sec,2 min 30 sec,Baron America,2022AMER01,144,2,Henry Mermel,2022MERM01,77,3,Max Park,2012PARK03,98,1,Sushanth Mattur,2022MATT02,82,1
+87,4x4,1,1 min 10 sec,2 min 30 sec,Benjamin Brown,2018BROW22,26,1,Hudson Kang,2022KANG11,9,1,Micah Yeo,2022YEOM01,14,2,Thanos Manuel Cocoles,2022COCO01,11,3
+88,4x4,1,1 min 10 sec,2 min 30 sec,Benjamin O. Bradley,2022BRAD08,153,3,Ira Thota,2022THOT02,106,2,Michael Villegas,,21,1,Tsukasa Alex Sano,2022SANO02,8,3
+89,4x4,1,1 min 10 sec,2 min 30 sec,Benjamin Yin,2022YINB01,62,2,Ivan Efimov,2022EFIM01,103,3,Neel Manjeshwar,2018MANJ02,139,1,Vivek Verma,2016VERM04,3,2
+90,4x4,1,1 min 10 sec,2 min 30 sec,Brandon Lugtu,2012LUGT01,44,1,James Chea,2022CHEA05,10,3,Niklas Hsu-Storaker,2022HSUS01,171,1,William Borgsmiller,,92,3
+91,4x4,1,1 min 10 sec,2 min 30 sec,Brandon Yee,2022YEEB01,32,3,James Yang,2017YANG58,70,1,Nolan Yiu,2016YIUN01,5,2,Wilson Li,2017LIWI03,13,2
+92,4x4,1,1 min 10 sec,2 min 30 sec,Caleb Yao,2018YAOC02,12,1,Jason Ostdiek,2017OSTD02,59,1,Orin Mishoe,2022MISH06,27,3,Zachary Au-Swartzkopf,2022AUSW01,133,2
+93,4x4,1,1 min 10 sec,2 min 30 sec,Cameron America,2022AMER02,145,2,Jason Wong,,63,3,Patrick Devlin,2022DEVL02,164,2,Zane Qureshi,2020QURE01,69,2
+94,4x4,1,1 min 10 sec,2 min 30 sec,Cary Huang,2015HUAN48,83,3,Jeff Chen,2022CHEN19,111,1,Patrick Wang,2022WANG64,33,3,,,,
+95,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+96,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+97,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+98,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+99,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+100,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+101,4x4,2,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+102,4x4,3,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+103,4x4,3,N/A,2 min 30 sec,,,,,,,,,,,,,,,,
+104,OH,1,40 sec,2 min,Aarav Shankar,2022SHAN03,143,3,Chengxi Li,2014LICH04,149,3,Jordan Lee,2022LEEJ19,137,2,Priscilla Chou,2022CHOU11,138,2
+105,OH,1,40 sec,2 min,Abhimanyu Singh,2022SING37,115,3,Colton Oddson,,163,1,Keaton Gross,,99,2,Quentin D'Antuono,2022DANT02,166,1
+106,OH,1,40 sec,2 min,Abhinav Reddy Jukanti,2022JUKA01,117,1,Emmett O'Leary-Liu,2019OLEA02,15,2,Kevin Ly,2022LYKE01,57,2,Randy Zhong,2021ZHON07,51,1
+107,OH,1,40 sec,2 min,Aditya Jha,2022JHAA01,79,1,Ender Rodriguez,2022RODR20,95,3,Lawrence Zhao,2022ZHAO08,49,2,Robin Herman,2020HERM01,52,3
+108,OH,1,40 sec,2 min,Ahana Praveen,2022PRAV02,41,1,Eric Che,2022CHEE02,66,3,Liv Ignacio,,39,2,Roman Reddick,2022REDD01,159,3
+109,OH,1,40 sec,2 min,Aidan Leung,2015LEUN01,4,1,Eric Yang,2014YANG35,7,2,Logan Pang,2022PANG01,116,1,Rudy Colato,2016COLA01,35,3
+110,OH,1,40 sec,2 min,Alex Chang,,28,3,Ethan Lim,,132,3,Logan Zangaro,2022ZANG01,131,2,Ryan H. Lee,,6,2
+111,OH,1,40 sec,2 min,Amahl Weinstein Agrawal,2022AGRA05,30,3,Evan Chin,2017CHIN03,85,2,Lucas Aubin,2019AUBI01,47,1,Ryan Peh (白凯明),2015PEHR01,81,3
+112,OH,1,40 sec,2 min,An Le,2015LEAN01,2,1,Gabriel Sianez,,136,3,Lucas Bekele,2022BEKE02,50,3,Sammy Rogers,2019ROGE06,22,2
+113,OH,1,40 sec,2 min,Andre Luis Rubio,2022RUBI03,72,1,Gurshan Singh,2019SING33,23,1,Lucas Choi,2022CHOI21,18,2,Sanjay Chintapally,2017CHIN04,160,3
+114,OH,1,40 sec,2 min,Andrew Clippinger,2016CLIP01,174,3,Hayden I. Lee,2022LEEH10,123,3,Luke Bradley,2022BRAD09,152,1,Sara Rose,2022ROSE09,141,3
+115,OH,1,40 sec,2 min,Anton Than,,94,1,Heidi Chan,2018CHAN50,75,3,Mason Wong,2022WONG03,100,3,Sarvesh Subbiah,2022SUBB03,90,2
+116,OH,1,40 sec,2 min,Antonio Kam Ho Tung (甘浩東),2017TUNG13,1,3,Hrishikesh Kakati,2022KAKA01,56,2,Max Lai,2022LAIM01,124,1,Sean Breckenridge,2017BREC02,110,1
+117,OH,1,40 sec,2 min,Arjun Kumar,2022KUMA20,89,3,Hudson Kang,2022KANG11,9,3,Max Park,2012PARK03,98,1,Sean Yang,2022YANG03,64,2
+118,OH,1,40 sec,2 min,Baron America,2022AMER01,144,1,Ivan Efimov,2022EFIM01,103,1,Micah Yeo,2022YEOM01,14,3,Stanley Tran,2019TRAN04,96,1
+119,OH,1,40 sec,2 min,Benjamin Brown,2018BROW22,26,3,James Chea,2022CHEA05,10,3,Michael Villegas,,21,1,Thanos Manuel Cocoles,2022COCO01,11,2
+120,OH,1,40 sec,2 min,Benjamin O. Bradley,2022BRAD08,153,1,James Rungsawang,2022RUNG01,48,2,Mustafa Saruhan,2022SARU03,135,1,Vivek Verma,2016VERM04,3,2
+121,OH,1,40 sec,2 min,Benjamin Yin,2022YINB01,62,2,James Yang,2017YANG58,70,1,Neel Manjeshwar,2018MANJ02,139,2,William Borgsmiller,,92,3
+122,OH,1,40 sec,2 min,Brandon Lugtu,2012LUGT01,44,1,Jason Ostdiek,2017OSTD02,59,1,Niklas Hsu-Storaker,2022HSUS01,171,2,Wilson Li,2017LIWI03,13,2
+123,OH,1,40 sec,2 min,Brandon Yee,2022YEEB01,32,1,Jason Wong,,63,3,Nolan Yiu,2016YIUN01,5,2,Winston Mermel,2022MERM02,78,2
+124,OH,1,40 sec,2 min,Caleb Yao,2018YAOC02,12,1,Jeff Chen,2022CHEN19,111,1,Patitpavan Neel,2009NEEL01,150,3,Zachary Au-Swartzkopf,2022AUSW01,133,1
+125,OH,1,40 sec,2 min,Cameron America,2022AMER02,145,3,Jeffrey Kim,2015KIMJ04,43,2,Paxon Schinske,2022SCHI02,125,2,Zane Qureshi,2020QURE01,69,2
+126,OH,1,40 sec,2 min,Cary Huang,2015HUAN48,83,2,,,,,,,,,,,,
+127,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+128,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+129,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+130,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+131,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+132,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+133,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+134,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+135,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+136,OH,2,N/A,2 min,,,,,,,,,,,,,,,,
+137,OH,3,N/A,2 min,,,,,,,,,,,,,,,,
+138,OH,3,N/A,2 min,,,,,,,,,,,,,,,,
+139,OH,3,N/A,2 min,,,,,,,,,,,,,,,,
+140,,,N/A,N/A,,,,,,,,,,,,,,,,
+141,,,N/A,N/A,,,,,,,,,,,,,,,,
+142,,,N/A,N/A,,,,,,,,,,,,,,,,
+143,,,N/A,N/A,,,,,,,,,,,,,,,,
+144,,,N/A,N/A,,,,,,,,,,,,,,,,
+145,,,N/A,N/A,,,,,,,,,,,,,,,,
+146,,,N/A,N/A,,,,,,,,,,,,,,,,

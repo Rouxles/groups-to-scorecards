@@ -9,7 +9,7 @@ We need details about the competition ID because data is taken from the WCIF to 
 Please remember to run this in Python 3 (rather than Python 2). Make sure it's a version that supports type annotations as well.
 '''
 
-competition_id: str = "BASC40SanRamon2022"
+competition_id: str = "BerkeleyWinterB2023"
 
 # %%
 
@@ -111,9 +111,9 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
         current_groups = current_groups.sort_values("Name")
         num_people: int = len(current_groups)
 
-        event_data: pd.DataFrame = wcif_df[wcif_df["id"] == event]
+        current_event_metadata: pd.DataFrame = wcif_df[wcif_df["id"] == event]
 
-        for round in event_data["rounds"].iloc[0]:
+        for round in current_event_metadata["rounds"].iloc[0]:
             cutoff = round["cutoff"]
             cutoff_timestamp: pd.Timestamp = pd.to_datetime(cutoff["attemptResult"] * 10, unit="ms") if cutoff else None
             time_limit = round["timeLimit"]
@@ -134,11 +134,8 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
                 for i in range(len(split_columns)):
                     current_number = i + 1
                     segment = split_columns[i]
-
-                    segment["sep"] = segment["WCA ID"].apply(lambda x: "" if pd.isna(x) else " ")
-
                     segment.reset_index(drop=True, inplace=True)
-                    new_columns = np.append(segment.columns[:-2] + f"{current_number}", np.array([f"g{current_number}", f"sep{current_number}"]))
+                    new_columns = np.append(segment.columns[:-1] + f"{current_number}", np.array([f"g{current_number}"]))
                     segment.columns = new_columns
 
                 spreadsheet_data: pd.DataFrame = split_columns[0]
@@ -150,7 +147,7 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
 
                 metadata: pd.DataFrame = pd.DataFrame(
                     data = {
-                        "Event": [event_data["id"].iloc[0]] * num_pages,
+                        "Event": [event_data[event_data["Event"] == current_event_metadata["id"].iloc[0]]["Name"].iloc[0]] * num_pages,
                         "R": [round_number] * num_pages,
                         "cutoff": [cutoff_string] * num_pages,
                         "timelimit": [time_limit_string] * num_pages,
@@ -165,7 +162,7 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
                 num_pages = math.ceil(num_people/SCORECARDS_PER_PAGE)
                 metadata: pd.DataFrame = pd.DataFrame(
                     data = {
-                        "Event": [event_data["id"].iloc[0]] * num_pages,
+                        "Event": [event_data[event_data["Event"] == current_event_metadata["id"].iloc[0]]["Name"].iloc[0]] * num_pages,
                         "R": [round_number] * num_pages,
                         "cutoff": [cutoff_string] * num_pages,
                         "timelimit": [time_limit_string] * num_pages,
