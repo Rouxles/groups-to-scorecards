@@ -9,7 +9,8 @@ We need details about the competition ID because data is taken from the WCIF to 
 Please remember to run this in Python 3 (rather than Python 2). Make sure it's a version that supports type annotations as well.
 '''
 
-competition_id: str = "BerkeleyWinterB2023"
+competition_id: str = "ClawsUpSummer2023"
+has_stage: bool = False 
 
 # %%
 
@@ -108,7 +109,8 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
     for event in labels.columns:
         current_groups: pd.DataFrame = groups[groups[event].notna()][["Name", "WCA ID", "ID", event]]
         current_groups[event] = current_groups[event].astype(int)
-        current_groups = current_groups.sort_values("Name")
+        current_groups = current_groups.sort_values(event)
+        current_groups.reset_index(drop=True, inplace=True)
         num_people: int = len(current_groups)
 
         current_event_metadata: pd.DataFrame = wcif_df[wcif_df["id"] == event]
@@ -130,7 +132,109 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
             round_number = round["id"][-1]
 
             if round_number == "1":
-                split_columns = np.array_split(current_groups, 4)
+                
+                permuted_groups = pd.DataFrame()
+
+                for mod in range(4):
+                    permuted_groups = pd.concat([permuted_groups, current_groups[current_groups.index % 4 == mod]])
+
+                split_columns = np.array_split(permuted_groups, 4)
+
+                for i in range(len(split_columns)):
+                    current_number = i + 1
+                    segment = split_columns[i]
+                    segment.reset_index(drop=True, inplace=True)
+                    new_columns = np.append(segment.columns[:-1] + f"{current_number}", np.array([f"g{current_number}"]))
+                    segment.columns = new_columns
+
+                spreadsheet_data: pd.DataFrame = split_columns[0]
+            
+                for i in range(len(split_columns) - 1):
+                    spreadsheet_data = pd.concat([spreadsheet_data, split_columns[i + 1]], axis=1)
+
+                num_pages: int = math.ceil(num_people / SCORECARDS_PER_PAGE)
+
+                metadata: pd.DataFrame = pd.DataFrame(
+                    data = {
+                        "Event": [event_data[event_data["Event"] == current_event_metadata["id"].iloc[0]]["Name"].iloc[0]] * num_pages,
+                        "R": [round_number] * num_pages,
+                        "cutoff": [cutoff_string] * num_pages,
+                        "timelimit": [time_limit_string] * num_pages,
+                    }
+                )
+
+                current_pages: pd.DataFrame = pd.concat([metadata,spreadsheet_data], axis=1)
+
+                pages = pd.concat([pages, current_pages])
+
+            else:
+                num_pages = math.ceil(num_people/SCORECARDS_PER_PAGE)
+                metadata: pd.DataFrame = pd.DataFrame(
+                    data = {
+                        "Event": [event_data[event_data["Event"] == current_event_metadata["id"].iloc[0]]["Name"].iloc[0]] * num_pages,
+                        "R": [round_number] * num_pages,
+                        "cutoff": [cutoff_string] * num_pages,
+                        "timelimit": [time_limit_string] * num_pages,
+                    }
+                )
+
+                pages = pd.concat([pages, metadata])
+
+            if round["advancementCondition"]:
+                num_people = round["advancementCondition"]["level"]
+
+    pages = add_blanks(pages, num_blanks)
+
+    pages = pages.fillna(-1)
+
+    for c in pages.columns:
+        if pages[c].dtype == np.dtype('float64'):
+            pages[c] = pages[c].astype(int)
+
+    pages.reset_index(inplace=True)
+    pages.insert(0, "Page", pages.index + 1)
+
+    return pages.replace(to_replace=-1, value="").drop(columns=["index"])
+
+
+def scorecard_template_stage(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: int=DEFAULT_NUM_BLANK_PAGES) -> pd.DataFrame:
+    pages: pd.DataFrame = pd.DataFrame()
+
+    for event in labels.columns:
+        current_groups: pd.DataFrame = groups[groups[event].notna()][["Name", "WCA ID", "ID", event]]
+        current_groups = current_groups.sort_values(event)
+        current_groups.reset_index(drop=True, inplace=True)
+        num_people: int = len(current_groups)
+
+        current_event_metadata: pd.DataFrame = wcif_df[wcif_df["id"] == event]
+
+        for round in current_event_metadata["rounds"].iloc[0]:
+            cutoff = round["cutoff"]
+            cutoff_timestamp: pd.Timestamp = pd.to_datetime(cutoff["attemptResult"] * 10, unit="ms") if cutoff else None
+            time_limit = round["timeLimit"]
+
+            if time_limit: 
+                time_limit_timestamp: pd.Timestamp = pd.to_datetime(time_limit["centiseconds"] * 10, unit="ms")
+                cumulative = bool(time_limit["cumulativeRoundIds"])
+            else:
+                time_limit_timestamp: pd.Timestamp = None
+
+            cutoff_string = timestamp_to_string(cutoff and cutoff_timestamp)
+            time_limit_string = timestamp_to_string(time_limit and time_limit_timestamp, cumulative)
+
+            round_number = round["id"][-1]
+
+            if round_number == "1":
+
+                current_groups = current_groups.sort_values(event)
+
+                permuted_groups = pd.DataFrame()
+
+                for mod in range(4):
+                    permuted_groups = pd.concat([permuted_groups, current_groups[current_groups.index % 4 == mod]])
+
+                split_columns = np.array_split(permuted_groups, 4)
+                
                 for i in range(len(split_columns)):
                     current_number = i + 1
                     segment = split_columns[i]
@@ -191,14 +295,24 @@ def scorecard_template(labels: pd.DataFrame, groups: pd.DataFrame, num_blanks: i
 
 # ao5 module
 
-ao5_pages: pd.DataFrame = scorecard_template(competition_ao5_labels, ao5_groups, NUM_BLANK_AO5_PAGES)
+ao5_pages: pd.DataFrame
+
+if has_stage:
+    ao5_pages = scorecard_template_stage(competition_ao5_labels, ao5_groups, NUM_BLANK_AO5_PAGES)
+else:
+    ao5_pages = scorecard_template(competition_ao5_labels, ao5_groups, NUM_BLANK_AO5_PAGES)
 
 ao5_pages.to_csv("output/ao5_pages.csv", index=False)
 # %% 
 
 # mo3 module
 
-mo3_pages: pd.DataFrame = scorecard_template(competition_mo3_labels, mo3_groups, NUM_BLANK_MO3_PAGES)
+mo3_pages: pd.DataFrame
+
+if has_stage:
+    mo3_pages = scorecard_template_stage(competition_mo3_labels, mo3_groups, NUM_BLANK_MO3_PAGES)
+else:
+    mo3_pages = scorecard_template(competition_mo3_labels, mo3_groups, NUM_BLANK_MO3_PAGES)
 
 mo3_pages.to_csv("output/mo3_pages.csv", index=False)
 
